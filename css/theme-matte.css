@@ -245,70 +245,12 @@ span.text-white a {
   font-weight:300;
 }
 
-/*#videofullpage{
-background-color: rgba(0,0,0, 0.9);
-z-index: 1000000;
-position: fixed;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
-width: 101%;
-height: 100%;
-display: none;
-}
-.video_open{
-  display: block;
-}
-#videofullpage .container{
-  position: relative;
-  top:50%;
-  transform:translateY(-50%);
-}
+.modal-header{
+  border-bottom: transparent; }
 
-.videoplay{
-top: 10%;
+.close:focus, .close:hover{
+  color:gray;
 }
-#videofullpage.row{
-  margin-left: 0px !important;
-}
-.cancel{
-  color: #fff;
-  position: fixed;
-  font-size: 60px;
-  top: 30px;
-  right: 40px;
-  cursor: pointer;
-  z-index: 10000000;
-  display: none;
-  font-weight: 300;
-}
-.block{
-  display: block;
-}
-
-.icon_play{
-  margin-top: 5%;
-  margin-bottom: 5%;
-  opacity: 1;
-  display: block;
-  height: auto;
-  transition: .5s ease;
-}
-#video-cover-02:hover .icon_play{
-  opacity: 0.5;
-}
-
-#video-cover-02{
-    padding: 105px ;
-    background-image: url('../img/2newinterface_bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-}*/
-
-
-
 
 /*---bryan-fix-end---*/
 
