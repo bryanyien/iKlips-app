@@ -212,16 +212,15 @@ span.text-white a {
   background-size: cover;
   position: relative;
   border-radius: 10px;
-  display:flex;
-  align-items:center; 
-  justify-content:center;
   transition: 0.6s;
 }
 
 .play-icon{
-  position: relative;
-  position: absolute;
-  padding: 20% 40%;
+  width: 100%;
+  height: 100%;
+  display:flex;
+  align-items:center; 
+  justify-content:center;
   transition: 0.2s;
 }
 .video-img-first:hover{
@@ -246,9 +245,10 @@ span.text-white a {
 }
 
 .modal-header{
-  border-bottom: transparent; }
+  border-bottom: transparent !important; 
+}
 
-.close:focus, .close:hover{
+.modal-header .close:focus, .close:hover{
   color:gray;
 }
 
